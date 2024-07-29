@@ -98,29 +98,12 @@ p {
 }
 
 #progbar {
-    border-radius: 0.348837209302vw; /*5px*/
     width: 90%;
     height: 1.39534883721vw; /*20px*/
     margin: 5%;
 }
 
-#progbar::-webkit-progress-bar {
-    background-color: #6F8AB7;
-    border-radius: 5px;
-}
-
-#progbar::-webkit-progress-value {
-    background-color: #59C9A5;
-    border-radius: 5px;
-}
-
-#progbar::-moz-progress-bar {
-    background-color: #59C9A5;
-    border-radius: 5px;
-}
-
 .bar {
-    border-radius: 0.348837209302vw; /*5px*/
     width: 21.976744186vw; /*315px*/
     height: 1.39534883721vw; /*20px*/
     
@@ -128,36 +111,26 @@ p {
     float: right;
 }
 
-.bar::-webkit-progress-bar {
+progress {
+    border-radius: 0.348837209302vw; /*5px*/
+    background-color: #6F8AB7;
+    border: 0px;
+}
+
+progress::-webkit-progress-bar {
     background-color: #6F8AB7;
     border-radius: 5px;
 }
 
-.bar::-webkit-progress-value {
+progress::-webkit-progress-value {
     background-color: #59C9A5;
     border-radius: 5px;
 }
 
-.bar::-moz-progress-bar {
+progress::-moz-progress-bar {
     background-color: #59C9A5;
     border-radius: 5px;
 }
-
-/*
-ul {
-    color: #6FB3D3;
-    font-size: 1.25581395349vw;
-    margin: 0px;
-    column-count: 3;
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-}
-
-li {
-    list-style-type: "> ";
-}
-*/
 
 #arcnums {
     text-align: center;
@@ -174,5 +147,14 @@ li {
 .num:hover {opacity: 1.0;}
 
 table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #6FB3D3;
+    font-size: 1.25581395349vw;
+    margin: 0px;
+    transform: translateY(-6.97674418605vw); /*-100px*/
+}
+
+tbody {
     width: 100%;
 }
