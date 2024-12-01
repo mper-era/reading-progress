@@ -1,14 +1,14 @@
 window.onload = function() {
 
     // Changing variables
-    var pg = 12225; // Current page
-    var chap = 902; // Current chapter
-    var date = new Date("7/29/2024 21:32 UTC"); // Current time/date
+    var pg = 11531; // Current page
+    var chap = 1003; // Current chapter
+    var date = new Date("12/1/2024 22:30 UTC"); // Current time/date
 
     var pb = document.getElementById("progbar");
 
     var minpg = 0;
-    var maxpg = 31523;
+    var maxpg = 21882;
     pb.value = pg;
     pb.max = maxpg;
 
