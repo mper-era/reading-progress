@@ -1,14 +1,14 @@
 window.onload = function() {
 
     // Changing variables
-    var pg = 12012; // Current page
-    var chap = 1093; // Current chapter
-    var date = new Date("6/14/2025 5:34 UTC"); // Current time/date
+    var pg = 12861; // Current page
+    var chap = 1168; // Current chapter
+    var date = new Date("11/29/2025 12:12 UTC"); // Current time/date
 
     var pb = document.getElementById("progbar");
 
     var minpg = 0;
-    var maxpg = 21882;
+    var maxpg = 25409;
     pb.value = pg;
     pb.max = maxpg;
 
@@ -54,3 +54,4 @@ window.onload = function() {
     
     document.getElementById("chaptxt").innerHTML = `Current Chapter: ${chap}/${arcs[arcs.length - 1]}`;
 }
+
